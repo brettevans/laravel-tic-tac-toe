@@ -16,7 +16,7 @@ nix develop
 ```sh
 php artisan key:generate
 php artisan migrate
-php serve
+php artisan serve
 ```
 
 ## Testing
@@ -24,4 +24,5 @@ php serve
 ```sh
 nix flake check
 php artisan test
+php artisan dusk
 ```

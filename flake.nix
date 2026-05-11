@@ -29,6 +29,7 @@
         iconv           # Required by mbstring
         xmlwriter       # Required by composer and phpunit
         pdo_sqlite      # Required by laravel as default
+        zip             # Required by Larvael Dusk
       ]);
     in {
       devShells.${system}.default = pkgs.mkShell {
